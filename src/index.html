@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Coffee Shop</title>
+</head>
+<body>
+<header class="position-fixed d-flex align-items-center justify-content-between top-0 w-100">
+    <div class="logo w-25">
+
+<h2> Coffee ☕</h2>
+    </div>
+     <a class="ll" href="#"><i class="fa-solid fa-list"></i></a>
+    <nav class="w-50">
+    
+        <ul class="list-unstyled d-flex justify-content-between align-items-center h-100" >
+            <li class="nav-item rounded-pill"><a class="text-decoration-none text-center list-unstyled d-block font"  href="#" id="Home">Home</a></li>
+            <li class="nav-item rounded-pill"><a class="text-decoration-none text-center list-unstyled d-block font" href="#" id="about">About</a></li>
+            <li class="nav-item rounded-pill"><a class="text-decoration-none text-center list-unstyled d-block font" href="#" id="gallery-section">Gallery</a></li>
+            <li class="nav-item rounded-pill"><a class="text-decoration-none  text-center list-unstyled d-block font" href="#" id="menu">Menu</a></li>
+            <li class="nav-item rounded-pill"><a class="text-decoration-none text-center list-unstyled d-block font" href="#" id="contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="Home w-100 " >
+    <div class="title container">
+        <h3>Home</h3>
+        <span></span>
+    </div>
+    <div class="shop-desc d-flex align-items-center justify-content-around">
+    <div class="desc text-center h-auto p-3 ">
+        <p>
+            Welcome to Caffee Shop, where every cup is brewed with passion and crafted with care.
+            We believe that great coffee creates great moments, and we’re here to make your day a little brighter with every sip.
+        </p>
+    </div>
+    <div class="img">
+        <img class="w-100 h-100 " src="../images/coffee-hero-section.png" alt="">
+    </div>
+    </div>
+</section>
+<section class="about w-100" >
+    <div class="title container">
+        <h3>About Us</h3>
+        <span></span>
+    </div>
+    <div class="shop-about d-flex align-items-center justify-content-around gap-3 w-100">
+        <div class="about-desc">
+            <p>
+                At Caffee Shop, our story began with a love for quality coffee
+                and a desire to build a place where people can connect.
+                We source our beans from trusted farms and roast them to perfection
+                to ensure every cup delivers the warmth and richness you deserve.
+                Our team is dedicated to offering fresh ingredients, handcrafted drinks,
+                and a comfortable space that feels like home.
+                Join us and experience the art of coffee, one cup at a time.
+            </p>
+        </div>
+        <div class="gallery">
+            <div id="hi" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#hi" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#hi" data-bs-slide-to="1"></button>
+                </div>
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/restaurant-setting-with-wooden-chairs-tables-beautiful-view.jpg" class="d-block w-100 h-100" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../images/parisian-coffee-shop-style-with-tasty-coffee-served-wooden-table-coffee-shop-design.jpg" class="d-block w-100 h-100" alt="">
+                    </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#hi" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#hi" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="gallery-section m-auto w-100" >
+    <div class="title container">
+        <h3>Our Gallery</h3>
+        <span></span>
+    </div>
+    <div class="gallery m-auto w-100">
+        <div id="image" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#image" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#image" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#image" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#image" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#image" data-bs-slide-to="4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../images/gallery-1.jpg" class="d-block w-100 h-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Come And Enjoy</h4>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../images/cold-beverages.png" class="d-block w-100 h-100 " alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Come And Enjoy</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/desserts.png" class="d-block w-100 h-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Come And Enjoy</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/refreshment.png" class="d-block w-100 h-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Come And Enjoy</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/hot-beverages.png" class="d-block w-100 h-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Come And Enjoy</h4>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#image" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#image" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+    </div>
+
+</section>
+<section class="menu w-100 h-auto" >
+    <div class="title container">
+        <h3>Menu</h3>
+        <span></span>
+    </div>
+    <div class="menu-items container d-flex align-items-start justify-content-around flex-wrap gap-3 w-100 h-auto">
+            <div class="card d-flex flex-row align-items-center justify-content-end overflow-hidden">
+                <div class="img w-50 h-100 overflow-hidden">
+                    <img  src="../images/glass-orange-juice-placed-wood.jpg" alt="">
+                </div>
+                <div class="card-body w-50 p-1 d-flex flex-column justify-content-center">
+                    <h5 class="card-title">Fresh Orange Juice</h5>
+                    <p class="card-text">100% natural freshly squeezed orange juice</p>
+                    <span>$6.0</span>
+                    <button>Leave a ِِComment</button>
+                </div>
+            </div>
+        <div class="card d-flex flex-row align-items-center justify-content-end overflow-hidden">
+            <div class="img w-50 h-100 overflow-hidden">
+                    <img  src="../images/lemonade-with-lemons-herbs-glass-white-plaster.jpg" alt="">
+                </div>
+            <div class="card-body w-50 p-1 d-flex flex-column justify-content-center">
+                    <h5 class="card-title">Lemon Mint</h5>
+                    <p class="card-text">Refreshing lemonade with fresh mint leaves</p>
+                    <span>$5.0</span>
+                    <button>Leave a ِِComment</button>
+                </div>
+            </div>
+        <div class="card d-flex flex-row align-items-center justify-content-end overflow-hidden">
+            <div class="img w-50 h-100 overflow-hidden">
+                    <img  src="../images/iced-coffee-latte.jpg" alt="">
+                </div>
+            <div class="card-body w-50 p-1 d-flex flex-column justify-content-center">
+                    <h5 class="card-title">Iced Coffee</h5>
+                    <p class="card-text">Cold brewed coffee with milk and ice</p>
+                    <span>$8.0</span>
+                    <button>Leave a ِِComment</button>
+                </div>
+            </div>
+        <div class="card d-flex flex-row align-items-center justify-content-end overflow-hidden">
+            <div class="img w-50 h-100 overflow-hidden">
+                    <img  src="../images/closeup-shot-glass-fresh-strawberry-milkshake-with-strawberries-table.jpg" alt="">
+                </div>
+            <div class="card-body w-50 p-1 d-flex flex-column justify-content-center">
+                    <h5 class="card-title">Strawberry Smoothie</h5>
+                    <p class="card-text">Fresh strawberries blended with yogurt</p>
+                    <span>$12.55</span>
+                    <button>Leave a ِِComment</button>
+                </div>
+            </div>
+        <div class="card d-flex flex-row align-items-center justify-content-end overflow-hidden">
+            <div class="img w-50 h-100 overflow-hidden">
+                    <img src="../images/glass-americano-coffee-grey-background-decorated-with-coffee-beans.jpg" alt="">
+                </div>
+            <div class="card-body w-50 p-1 d-flex flex-column justify-content-center">
+                    <h5 class="card-title">Espresso</h5>
+                    <p class="card-text">Strong Italian style coffee shot</p>
+                    <span>$6.5</span>
+                    <button>Leave a ِِComment</button>
+                </div>
+            </div>
+        <div class="card d-flex flex-row align-items-center justify-content-end overflow-hidden">
+            <div class="img w-50 h-100 overflow-hidden">
+                    <img  src="../images/latte-coffee.jpg" alt="">
+                </div>
+            <div class="card-body w-50 p-1 d-flex flex-column justify-content-center">
+                    <h5 class="card-title">Cappuccino</h5>
+                    <p class="card-text">Espresso with steamed milk foam</p>
+                    <span>$11.0</span>
+                    <button>Leave a ِِComment</button>
+                </div>
+            </div>
+        <div class="card d-flex flex-row align-items-center justify-content-end overflow-hidden">
+            <div class="img w-50 h-100 overflow-hidden">
+                    <img  src="../images/close-up-mojito-cocktail-with-mint-lime-ice-ice-bucket-with-smoke.jpg" alt="">
+                </div>
+            <div class="card-body w-50 p-1 d-flex flex-column justify-content-center">
+                    <h5 class="card-title">Mojito(Non-alcoholic)</h5>
+                    <p class="card-text">Lime and Mint - sugar and soda water</p>
+                    <span>$9.0</span>
+                    <button>Leave a ِِComment</button>
+                </div>
+            </div>
+        <div class="card d-flex flex-row align-items-center justify-content-end overflow-hidden">
+            <div class="img w-50 h-100 overflow-hidden">
+                    <img  src="../images/close-up-view-delicious-hot-chocolate.jpg" alt="">
+                </div>
+                <div class="card-body w-50 p-1 d-flex flex-column justify-content-center">
+                    <h5 class="card-title">late Hot Chocolate</h5>
+                    <p class="card-text">Rich creamy hot chocolate with whipped cream</p>
+                    <span>$9.0</span>
+                    <button>Leave a ِِComment</button>
+                </div>
+            </div>
+
+        </div>
+
+</section>
+<section class="contact w-100 h-auto" >
+    <div class="title container">
+        <h3>Contact Us</h3>
+        <span></span>
+    </div>
+    <div class="contact-body d-flex align-items-center justify-content-around gap-3 m-auto" style="width: 90%">
+        <div class="contact-info d-flex flex-column align-items-center justify-content-around">
+            <h2>Contact Info</h2>
+            <ul class="list-unstyled p-0">
+                <li><i class="fa-solid fa-location-dot"></i> Mosque, 6 October, Egypt</li>
+                <li><i class="fa-solid fa-phone"></i> 123456789</li>
+                <li><i class="fa-solid fa-envelope"></i> support@foodlover.com</li>
+
+                <li class="work-hours ">
+                    <p>
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <i class="fa-solid fa-clock"></i> WORKING HOURS
+                        </a>
+                    </p>
+                        <div class="collapse" id="collapseExample">
+                                <ul>
+                                    <li>8:00 am – 11:00 pm (Weekdays)</li>
+                                    <li>11:00 am – 1:00 am (Weekends)</li>
+                                </ul>
+
+                        </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact-form">
+            <form method="dialog">
+                <h2>Send Message</h2>
+                <div class="input-group w-100 d-flex flex-column mb-1">
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+
+                <div class="input-group w-100 d-flex flex-column mb-1">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+
+                <div class="input-group w-100 d-flex flex-column mb-1">
+                    <label>Message</label>
+                    <textarea rows="4" placeholder="Enter your message"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+
+
+    </div>
+</section>
+<footer class="footer w-100 text-center" id="Footer">
+    <div class="container text-center" >
+        <h3>FOLLOW US</h3>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p class="text-center">Copyright &copy; 2025-2026 All rights reserved | made by
+        <b> <a class="list-unstyled" href="#"
+               target="_blank"> Mohamed Eladaly</a> </b></p>
+</footer>
+<div class="my-alert custom-alert alert alert-success text-center" role="alert">
+    <h4 class="alert-heading">Well done!</h4>
+    <p>Your message has been sent successfully.</p>
+    <hr>
+    <button class="btn btn-success close-alert w-25 m-auto">OK</button>
+</div>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
