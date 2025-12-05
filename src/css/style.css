@@ -86,9 +86,7 @@ header nav ul li a:hover {
     text-transform: uppercase;
     transition: 0.3s ease;
 }
-.title h3{
-transition: 0.3 ease;
-}
+
 .title h3:hover {
     color: var(--text-light);
     letter-spacing: 2px;
@@ -173,15 +171,18 @@ transition: 0.3 ease;
 }
 .about .shop-about .gallery {
     width: 40%;
-    height: 300px !important;
-    box-sizing: content-box;
-}
-.about .shop-about .gallery img {
-    height: 100%;
-    object-fit: revert-layer;
+    height: 400px !important;
+    margin:auto;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
     border-radius: 10px;
-   transition: 0.3s ease;
 }
+
+.about .shop-about .gallery img {
+    object-fit: contain;
+    transition: 0.3s ease;
+}
+
 .about .shop-about .gallery img:hover
 {
     transform: scale(1.2);
@@ -380,12 +381,14 @@ transition: 0.3 ease;
 
 @media (max-width: 991px) {
     header {
-        flex-direction: column;
-        height: 120px;
-        padding: 0;
+        display: none;
+        flex-direction:column ;
+        top: 0;
+        width: 100px !important;
+        z-index: 9999;
         margin: 0;
-        gap: 10px;
-       
+        padding: 0;
+        height: 100px !important;
     }
     header .logo {
         width: 100%;
@@ -394,10 +397,11 @@ transition: 0.3 ease;
     header nav {
     display: none;
     position: fixed;
-    top: 0; left: 0;
+    top: 0;
+        left: 0;
     width: 100px !important;
     z-index: 9999;
-     margin: 0; 
+     margin: 0;
       padding: 0;
     }
     header .ll{
@@ -413,20 +417,20 @@ transition: 0.3 ease;
         margin: 0 !important;
         padding: 0 !important;
         width: 100px !important;
-        
+
     }
     header nav ul li {
-    width: 100% !important; 
-    padding: 8px 15px !important;  
+    width: 100% !important;
+    padding: 8px 15px !important;
     margin: 0 !important;
-            
+
     }
     header nav ul li a {
-    display: inline-block;  
-    padding: 0 10px;        
+    display: inline-block;
+    padding: 0 10px;
 }
     .Home{
-        margin-top: 120px;
+        margin-top: 100px;
     }
     .Home .shop-desc {
         flex-direction: column;
@@ -444,9 +448,9 @@ transition: 0.3 ease;
 
     .Home .shop-desc .img {
     height: 350px;
-    display: flex;           
+    display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .Home .shop-desc .img img {
@@ -509,7 +513,7 @@ transition: 0.3 ease;
     .contact-form button{
         margin: auto;
     }
-    
+
     .footer {
         height: auto;
         padding: 20px 0;
